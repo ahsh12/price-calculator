@@ -87,7 +87,7 @@ function calc() {
     }
 
     // step 1: (price * 1.279)
-    let step1 = price * 1.39;
+    let step1 = price * 1.31;
 
     // step 2: إضافة 20% فقط على step1
     let step2 = step1 * 1.20;
@@ -97,7 +97,7 @@ function calc() {
 
     document.getElementById("result").style.display = "block";
     document.getElementById("result").innerHTML = `
-        السعر بعد 1.39: ${step1.toFixed(2)} <br>
+        السعر بعد 1.31: ${step1.toFixed(2)} <br>
         بعد إضافة 20%: ${step2.toFixed(2)} <br>
         تكلفة عدد القطع (×650): ${(quantity * 650)} <br>
         الزيادة الثابتة: 7 <br>
@@ -108,6 +108,7 @@ function calc() {
 
 </body>
 </html>
+
 
 
 
